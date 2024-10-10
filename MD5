@@ -1,4 +1,4 @@
-6af48c934951d81f12b25f63fae1e0bd *DESCRIPTION
+b0ac3a56810f8f7b9244e2611d2e7ae4 *DESCRIPTION
 55af624cce5fab8118ed19eb39e5dd4b *NAMESPACE
 a9f797d749cf59894a0dd858bc948b46 *R/fortran.R
 c0d19b5cd74f6e046db809e13c7ca91f *R/grid.hexagontile.R
@@ -17,5 +17,5 @@ d9026ab43394d136815486107ccbda56 *man/hexContour.Rd
 d06951aac81f6b3a5dcafa5180aa7ff5 *man/plotHexDensity.Rd
 e65fcfd909b4fc74c83b0ae7ecf333a2 *man/xy2hcell.Rd
 a0790fef068e87bb0a360ddcf2cf79f9 *src/hbin.f
-67d66876a6584b6d121de3e626cda5f4 *src/meanderingTriangleC.cpp
+8875dd11107fdd877ace4159aceb74c4 *src/meanderingTriangleC.cpp
 f4c1811e5e706a2659a7bca41c59dab1 *src/reg.c
