@@ -14,7 +14,8 @@ hexbinFull(
   xlab = NULL,
   ylab = NULL,
   IDs = FALSE,
-  weight = NULL
+  weight = NULL,
+  fractional = FALSE
 )
 }
 \arguments{
@@ -31,6 +32,8 @@ hexbinFull(
 \item{IDs}{Logical indicating if the hexagonal cell ID for each point should be returned, see hexbin.}
 
 \item{weight}{Numeric weight vector to be assigned to points.}
+
+\item{fractional}{Logical. Whether to use fractional binning scheme.}
 }
 \value{
 an S4 object of class \link[hexbin]{hexbin}.
@@ -42,7 +45,11 @@ to allow points with different weights. Default to use regular hexagon. See
 }
 \examples{
 set.seed(133)
-d=hexbinFull(x=rnorm(20000),y=rnorm(20000),xbins=50)
+x=rnorm(20000)
+y=rnorm(20000)
+d=hexbinFull(x,y,xbins=50)
+plotHexDensity(d)
+d=hexbinFull(x,y,xbins=50,fractional=TRUE)
 plotHexDensity(d)
 
 }
