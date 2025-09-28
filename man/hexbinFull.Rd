@@ -33,7 +33,7 @@ hexbinFull(
 
 \item{weight}{Numeric weight vector to be assigned to points.}
 
-\item{fractional}{Logical. Whether to use fractional binning scheme.}
+\item{fractional}{Logical. Whether each point is proportionally distributed among its three nearest hexagons based on its barycentric coordinates.}
 }
 \value{
 an S4 object of class \link[hexbin]{hexbin}.

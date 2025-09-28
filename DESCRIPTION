@@ -1,7 +1,7 @@
 Package: hexDensity
 Type: Package
 Title: Fast Kernel Density Estimation with Hexagonal Grid
-Version: 1.4.9
+Version: 1.4.10
 Authors@R: c(person(given = "Quoc Hoang",
                   family = "Nguyen",
                   role = c("aut","cre"),
@@ -39,7 +39,7 @@ NeedsCompilation: yes
 Imports: hexbin, spatstat.geom, grid, grDevices, methods
 Suggests: ggplot2
 RoxygenNote: 7.3.2
-Packaged: 2025-06-07 16:02:05 UTC; hoang
+Packaged: 2025-09-28 06:31:53 UTC; nguyen.q
 Author: Quoc Hoang Nguyen [aut, cre] (ORCID:
     <https://orcid.org/0009-0007-2828-7567>),
   Yunshun Chen [aut] (ORCID: <https://orcid.org/0000-0003-4911-5653>),
@@ -47,4 +47,4 @@ Author: Quoc Hoang Nguyen [aut, cre] (ORCID:
   binning routine ported by Nicholas Lewin-Koh [ctb],
   Martin Maechler [ctb]
 Repository: CRAN
-Date/Publication: 2025-06-07 16:50:02 UTC
+Date/Publication: 2025-09-28 07:20:02 UTC
